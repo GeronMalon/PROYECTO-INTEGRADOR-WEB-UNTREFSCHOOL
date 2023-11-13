@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #EFF5F5;
+}
+
+header{
+    background-color: #EFF5F5;
+    position: fixed;
+}
+    
+/*MAIN*/
+/*Seccion Quienes Somos*/
+
+main{
+    padding-top: 6%;
+}
+
+#quienessomos .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#quienessomos .texto{
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#quienessomos h2{
+    color: #1F8A70;
+    font-size: 35px;
+    margin-top: 0px;
+}
+
+#quienessomos .img-container{
+    margin:1% 0;
+    background-image: url("multimedia/img/universidad.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    width: 500px; 
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+/*Seccion Porque Elegirnos*/
+#porqueelegirnos{
+    background-color: #181823;
+    color: #EFF5F5;
+    text-align: center;
+}
+
+#porqueelegirnos .container{
+    padding:2% 2%;
+}
+
+#porqueelegirnos .programas{
+    display: flex;
+    justify-content: center;
+}
+
+#porqueelegirnos p{
+    display: block;
+    margin-bottom: 5%;
+}
+
+#porqueelegirnos h2{
+    color: #EFF5F5;
+    font-size: 35px;
+}
+
+#porqueelegirnos h3{
+    margin-top: 0;
+    font-size: 20px;
+}
+
+#porqueelegirnos .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("multimedia/img/pizarra.jpg");
+
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("multimedia/img/pizarra.jpg");
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("multimedia/img/pizarra.jpg");
+}
+
+/*Seccion Propuestas Educativas*/
+#propuestaeducativa{
+    background: #EFF5F5;
+    padding-bottom: 0px;
+}
+
+#propuestaeducativa h2{
+    color: #1F8A70;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 0%;
+    margin-bottom: 2%;
+}
+
+#propuestaeducativa .contenedor{
+    padding: 50px 12px;
+}
+.propuesta-cont{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.propuesta{
+    width: 28%;
+    text-align: center;
+}
+
+.propuesta img{
+    width: 50%;
+}
+
+.propuesta h3{
+    margin: 10px 0;
+    color: #1F8A70;
+}
+
+.servicio-ind p{
+    font-weight: 300;
+    text-align: justify;
+}
+
+/*Seccion Ultimas Propuestas*/
+#ultimaspropuestas{
+    background-color: #181823;
+    padding-bottom: 4%;
+}
+
+#ultimaspropuestas h2{
+    color: #EFF5F5;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 2%;
+    margin-bottom: 2%;
+}
+
+.propuestas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.propuestas .card{
+    background: #00425A;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.propuestas .card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #EFF5F5;
+    border-radius: 50%;
+    display: block;
+}
+
+.propuestas .card > .contenido-texto-card{
+    width: 60%;
+    color: #EFF5F5;
+}
+
+.propuestas .card > .contenido-texto-card p{
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+/*Footer*/
+footer{
+    background: #00425A;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.social-links a{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #EFF5F5;
+	transition: all 0.5s ease;
+}
+
+.social-links a:hover{
+	color: #24262b;
+	background-color: #EFF5F5;
+}
+
+ul{
+	list-style: none;
+}
+
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 1%;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #EFF5F5;
+    border-bottom: 3px solid #FC7300;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #EFF5F5;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+/*Formulario*/
+.mainform{
+    background: #181823;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    margin-bottom: 10px;
+    background: #EFF5F5;
+    width: 30%;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+}
+
+.form h1{
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 800;
+}
+.form{
+    width: 100%;
+    margin: auto;
+}
+
+form .grupo{
+    position: relative;
+    margin: 45px;
+}
+
+input, textarea{
+    background: none;
+    color:#c6c6c6;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid var(--colorTextos);
+    resize: none;
+}
+
+input:focus,textarea:focus{
+    outline: none;
+    color: rgb(94,93,93);
+}
+
+input:focus~label, 
+input:valid~label, 
+textarea:focus~label, textarea:valid~label{
+    position: absolute;
+    top: -14px;
+    font-size: 12px;
+    color: #FC7300;
+}
+
+label{
+    color: var(--colorTextos);
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top:10px;
+    transition: 0.5s ease all;
+    pointer-events: none;
+}
+
+
+input:focus~.barra::before, textarea:focus~.barra::before{
+    width: 100%;
+}
+.barra{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.barra::before{
+    content: '';
+    height: 2px;
+    width: 0%;
+    bottom: 0;
+    position: absolute;
+    background: #FC7300;
+    transition: 0.3s ease all;
+    left: 0%;
+}
+button{
+    background: #1F8A70;
+    display: block;
+    width: 100px;
+    height: 40px;
+    border:none;
+    color:#fff; 
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1100px){
+    form{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:768px){
+    main{
+        padding-top: 20%;
+    }
+
+    #porqueelegirnos .carta{
+        padding: 20px 0px;
+        margin: 10px;
+        border-radius: 15px;
+    }
+}
+
+@media screen and (max-width:600px){
+    form{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:450px){
+    form{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:320PX){
+    main{
+        padding-top: 50%;
+    }
+
+    #porqueelegirnos .carta{
+        padding: 20px 0px;
+        margin: 10px;
+        border-radius: 15px;
+    }
+}
+@media screen and (max-width:300px){
+    form{
+        width: 90%;
+    }
+}
