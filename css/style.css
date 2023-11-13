@@ -46,7 +46,7 @@ main{
 
 #quienessomos .img-container{
     margin:1% 0;
-    background-image: url("multimedia/img/universidad.jpg");
+    background-image: url("/multimedia/img/universidad.jpg");
     background-size: cover;
     background-position: center center;
     height: 400px;
@@ -100,7 +100,7 @@ main{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("multimedia/img/pizarra.jpg");
+    ,url("/multimedia/img/pizarra.jpg");
 
 }
 
@@ -110,7 +110,7 @@ main{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("multimedia/img/pizarra.jpg");
+    ,url("/multimedia/img/pizarra.jpg");
 }
 
 .carta:nth-child(3){
@@ -119,7 +119,7 @@ main{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("multimedia/img/pizarra.jpg");
+    ,url("/multimedia/img/pizarra.jpg");
 }
 
 /*Seccion Propuestas Educativas*/
